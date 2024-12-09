@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 import { menuItems } from '@/constant/Menu'
 import { Coffee } from 'lucide-react'
 import Heading from '../Heading/Heading'
@@ -9,7 +9,7 @@ export default function Dessert() {
       <div className="container mx-auto py-10 sm:py-16 flex flex-col md:flex-row gap-8 md:gap-[112px]">
         {/* Image Section */}
         <div className="w-full md:w-[448px] mb-6 md:mb-0">
-          <img 
+          <Image
             src="/dessert.png" 
             alt="Dessert dish" 
             width={448}
